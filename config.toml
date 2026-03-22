@@ -1,0 +1,183 @@
+baseURL = "https://powderedmetal.co/"
+languageCode = "en-us"
+title = "Powdered Metal Co"
+theme = "printwire"
+
+[params]
+tagline       = "The resource for powdered metal technology — atomisation, particle characterisation, alloy selection, and quality control for AM and PM."
+description   = "Powdered Metal Co is the authoritative resource for powdered metal technology — covering gas and plasma atomisation, powder characterisation, AM feedstock selection, and quality assurance."
+keywords      = "powdered metal, metal powder technology, gas atomisation, plasma atomisation, powder characterisation, AM feedstock, PM sintering"
+logoEmoji     = "⚗️"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#94a3b8"
+colorPrimaryDark  = "#7a8fa5"
+colorPrimaryLight = "#b8c7d9"
+colorBgDark       = "#06070d"
+colorBgSection    = "#09090f"
+colorBgCard       = "#0e0f18"
+colorBgCardHover  = "#121320"
+
+fontPrimary   = "Orbitron"
+fontSecondary = "Space+Grotesk"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"]
+
+heroEyebrow  = "Metal Powder Technology"
+heroTitle    = "Powdered <em>Metal</em> Co"
+heroSubtitle = "The resource for powdered metal technology — atomisation, particle characterisation, alloy selection, and quality control for AM and PM."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+overviewTitle   = "Powder Technology & Sourcing"
+overviewText    = "From atomisation to application — we cover the complete metal powder value chain: production, characterisation, alloy selection, and quality assurance for AM and PM."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "Powdered Metal Co Services"
+servicesSubtitle = "The resource for powdered metal technology — atomisation, particle characterisation, alloy selection, and quality control for AM and PM."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "The resource for powdered metal technology — atomisation, particle characterisation, alloy selection, and quality control for AM and PM."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 15
+suffix = "–45µm"
+label  = "DMLS Grade Particle Size"
+
+[[params.stats]]
+count  = 99.9
+suffix = "%"
+label  = "Purity"
+
+[[params.stats]]
+count  = 50
+suffix = "+"
+label  = "Alloys"
+
+[[params.stats]]
+count  = 0.1
+suffix = "%"
+label  = "Max O₂ Content"
+
+
+[[params.applications]]
+title       = "Aerospace Titanium"
+description = "Ti6Al4V ELI for flight-critical DMLS structural components."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+[[params.applications]]
+title       = "Medical Stainless"
+description = "316L and CoCr for biocompatible implants and surgical instruments."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+[[params.applications]]
+title       = "Industrial Aluminium"
+description = "AlSi10Mg and Scalmalloy for lightweight structural and automotive AM parts."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+[[params.applications]]
+title       = "High-Temperature Alloys"
+description = "Inconel 718 and 625 for turbine and energy sector AM applications."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "⚗️"
+title       = "Powder Sourcing"
+description = "Direct sourcing from qualified atomisers — Ti6Al4V, 316L, IN718, AlSi10Mg and 50+ alloys."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Powder Characterisation"
+description = "PSD, Hall flow, apparent density, SEM morphology, and full chemistry reporting services."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Supplier Qualification"
+description = "Support for AS9100 and ISO 13485 powder supplier qualification — documentation and testing protocols."
+
+[[params.servicesPreview]]
+icon        = "🧪"
+title       = "Alloy Consulting"
+description = "Alloy selection consulting for new AM applications — matching material to process and end-use requirements."
+
+
+[[params.services]]
+name        = "Powder Sourcing"
+description        = "Direct sourcing from qualified atomisers — Ti6Al4V, 316L, IN718, AlSi10Mg and 50+ alloys."
+icon        = "⚗️"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+[[params.services]]
+name        = "Powder Characterisation"
+description        = "PSD, Hall flow, apparent density, SEM morphology, and full chemistry reporting services."
+icon        = "🔬"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+[[params.services]]
+name        = "Supplier Qualification"
+description        = "Support for AS9100 and ISO 13485 powder supplier qualification — documentation and testing protocols."
+icon        = "◎"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+[[params.services]]
+name        = "Alloy Consulting"
+description        = "Alloy selection consulting for new AM applications — matching material to process and end-use requirements."
+icon        = "🧪"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "metalpowder.co"
+url         = "https://metalpowder.co"
+description = "Metal powder flagship"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprinttitanium.com"
+url         = "https://3dprinttitanium.com"
+description = "Titanium 3D printing"
+
+[[params.clusterLinks]]
+name        = "steel3dprint.com"
+url         = "https://steel3dprint.com"
+description = "Steel 3D printing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
